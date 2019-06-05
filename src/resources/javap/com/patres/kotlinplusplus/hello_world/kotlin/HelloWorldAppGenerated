@@ -1,0 +1,28 @@
+Compiled from "HelloWorldAppGenerated.kt"
+public final class com.patres.kotlinplusplus.hello_world.kotlin.HelloWorldAppGenerated {
+public static final com.patres.kotlinplusplus.hello_world.kotlin.HelloWorldAppGenerated INSTANCE;
+
+public static final void main(java.lang.String[]);
+        Code:
+        0: aload_0
+        1: ldc           #10                 // String args
+        3: invokestatic  #16                 // Method kotlin/jvm/internal/Intrinsics.checkParameterIsNotNull:(Ljava/lang/Object;Ljava/lang/String;)V
+        6: ldc           #18                 // String Hello World!
+        8: astore_1
+        9: iconst_0
+        10: istore_2
+        11: getstatic     #24                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        14: aload_1
+        15: invokevirtual #30                 // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+        18: return
+
+static {};
+        Code:
+        0: new           #2                  // class com/patres/kotlinplusplus/a_hello_world/kotlin/HelloWorldAppGenerated
+        3: dup
+        4: invokespecial #53                 // Method "<init>":()V
+        7: astore_0
+        8: aload_0
+        9: putstatic     #55                 // Field INSTANCE:Lcom/patres/kotlinplusplus/a_hello_world/kotlin/HelloWorldAppGenerated;
+        12: return
+        }

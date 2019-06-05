@@ -1,0 +1,18 @@
+Compiled from "HelloWorldApp.kt"
+public final class com.patres.kotlinplusplus.hello_world.kotlin.HelloWorldAppKt {
+public static final void main();
+        Code:
+        0: ldc           #11                 // String Hello World!
+        2: astore_0
+        3: iconst_0
+        4: istore_1
+        5: getstatic     #17                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        8: aload_0
+        9: invokevirtual #23                 // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+        12: return
+
+public static void main(java.lang.String[]);
+        Code:
+        0: invokestatic  #9                  // Method main:()V
+        3: return
+        }
